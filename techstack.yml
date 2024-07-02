@@ -1,0 +1,155 @@
+repo_name: huhuhuHR/openai-java
+report_id: 2a20b8b3d441613f8a3512016f17a934
+version: 0.1
+repo_type: Public
+timestamp: '2024-07-02T01:27:56+00:00'
+requested_by: yeikel
+provider: github
+branch: main
+detected_tools_count: 12
+tools:
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/huhuhuHR/openai-java
+  detection_source: Repo Metadata
+- name: RxJava
+  description: Reactive Extensions for the JVM
+  website_url: https://github.com/ReactiveX/RxJava
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Java Tools
+  image_url: https://img.stackshare.io/service/2190/6407041.png
+  detection_source_url: https://github.com/huhuhuHR/openai-java/blob/main/client/build.gradle
+  detection_source: client/build.gradle
+  last_updated_by: Theo Kanning
+  last_updated_on: 2022-04-27 01:55:05.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/huhuhuHR/openai-java
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/huhuhuHR/openai-java/blob/main/.github/workflows/publish.yml
+  detection_source: ".github/workflows/publish.yml"
+  last_updated_by: Theo Kanning
+  last_updated_on: 2023-01-03 22:33:24.000000000 Z
+- name: Gradle
+  description: A powerful build system for the JVM
+  website_url: https://www.gradle.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/service/975/gradlephant-social-black-bg.png
+  detection_source_url: https://github.com/huhuhuHR/openai-java/blob/main/api/build.gradle
+  detection_source: api/build.gradle
+  last_updated_by: Theo Kanning
+  last_updated_on: 2020-10-04 23:09:48.000000000 Z
+- name: Retrofit
+  description: A type-safe HTTP client for Android and Java
+  website_url: http://square.github.io/retrofit/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: API Tools
+  image_url: https://img.stackshare.io/service/2856/retrofit-logo.png
+  detection_source_url: https://github.com/huhuhuHR/openai-java/blob/main/client/build.gradle
+  detection_source: client/build.gradle
+  last_updated_by: Theo Kanning
+  last_updated_on: 2020-09-15 02:29:30.000000000 Z
+- name: com.fasterxml.jackson.core:jackson-annotations
+  description: Core annotations used for value types
+  version: 2.9.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/openai-java/blob/main/api/build.gradle
+  detection_source: api/build.gradle
+  last_updated_by: Theo Kanning
+  last_updated_on: 2022-12-04 18:55:17.000000000 Z
+- name: com.squareup.retrofit2:adapter-rxjava2
+  version: 2.9.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/openai-java/blob/main/client/build.gradle
+  detection_source: client/build.gradle
+  last_updated_by: Theo Kanning
+  last_updated_on: 2022-04-27 01:55:05.000000000 Z
+- name: com.squareup.retrofit2:converter-jackson
+  description: Type-safe HTTP client for Android and Java by Square, Inc
+  version: 2.9.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/openai-java/blob/main/client/build.gradle
+  detection_source: client/build.gradle
+  last_updated_by: Theo Kanning
+  last_updated_on: 2022-04-27 01:55:05.000000000 Z
+- name: com.squareup.retrofit2:retrofit
+  version: 2.9.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/openai-java/blob/main/client/build.gradle
+  detection_source: client/build.gradle
+  last_updated_by: Theo Kanning
+  last_updated_on: 2022-04-27 01:55:05.000000000 Z
+- name: org.junit.jupiter:junit-jupiter
+  description: Module "junit-jupiter" of JUnit 5
+  license: EPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/openai-java/blob/main/client/build.gradle
+  detection_source: client/build.gradle
+  last_updated_by: Theo Kanning
+  last_updated_on: 2022-04-19 23:50:44.000000000 Z
+- name: org.projectlombok:lombok
+  description: 'Spice up your java: Automatic Resource Management'
+  version: 1.18.24
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/openai-java/blob/main/api/build.gradle
+  detection_source: api/build.gradle
+  last_updated_by: Theo Kanning
+  last_updated_on: 2022-12-04 18:55:17.000000000 Z
